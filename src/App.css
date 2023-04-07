@@ -6,7 +6,38 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.tasks{
+  border: 2px solid black;
+  margin: 2rem;
+  padding: 2rem;
+}
+.tasks .tasktitle {
+  font-size: 35px;
+  font-style: italic;
+  padding-top: 12px;
+  text-align: left;
+  color: green;
+}
+.decrement{
+  background-color: red;
+  margin-right: 1rem;
+  border: 1px solid red;
+}
+.decrement:hover{
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  margin-right: 1rem;
+}
+.increment{
+  background-color: green;
+  border: 1px solid green;
+}
+.increment:hover{
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

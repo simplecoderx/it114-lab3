@@ -1,0 +1,79 @@
+h1{
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="text"], input[type="number"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  .inputfield{
+    background-color: lightblue;
+  }
+  .removebtn{
+    background-color: red;
+    border-radius: 3rem;
+    border: 1px solid red;
+  }
+
+  .removebtn:hover{
+    background-color: white;
+    border-radius: 3rem;
+    border: 1px solid red;
+    color: red;
+  }
+  .addbtn{
+    width: 4rem;
+    background-color: green;
+    border-radius: 3rem;
+    border: 1px solid green;
+  }
+
+  .addbtn:hover{
+    background-color: white;
+    border-radius: 3rem;
+    border: 1px solid green;
+    color: green;
+  }
+  .tablePersonList{
+    border: 2px solid black;
+  }
