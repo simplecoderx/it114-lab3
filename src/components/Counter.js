@@ -23,6 +23,10 @@ const Counter = () => {
   });
   }
 
+  function reset() {
+    setCount(0);
+  }
+
   //Uncomment these if you want to display negative integers when decremented
 //   const [count, setCounter] = useState(0);
 
@@ -38,6 +42,7 @@ const Counter = () => {
       <div className="App">
         <h1>{count}</h1>
         <button className="decrement" onClick={decrement}>Decrement</button>
+        <button className="reset" onClick={reset}>Reset</button>
         <button className="increment" onClick={increment}>Increment</button>
       </div>
     </div>
